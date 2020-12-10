@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewred"
+        android:background="#EC3E3E"
+        android:textSize="30sp"
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/textViewred"
+        android:id="@+id/textViewgreen"
+        android:background="#53F15A"
+        android:textSize="30sp"
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/textViewgreen"
+        android:id="@+id/textViewBlue"
+        android:background="#2196F3"
+        android:textSize="30sp"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/textViewBlue"
+        android:id="@+id/textViewOrange"
+        android:background="#FFEB3B"
+        android:textSize="30sp"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/textViewOrange"
+        android:id="@+id/textViewGray"
+        android:background="#807F7D"
+        android:textSize="30sp"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/textViewGray"
+        android:background="#F64E87"
+        android:textSize="30sp"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
